@@ -1,41 +1,37 @@
-# Python
+# Python/OS
 __pycache__/
 *.pyc
 .venv/
 .env
-.ipynb_checkpoints/
-
-# OS
 .DS_Store
-
-# Data/Models/Outputs (keep heavy stuff out)
-saved_models/
-outputs/
-data/raw/*
-
-!data/raw/README.txt
-!data/raw/sample_goemotions.csv
-
-# Streamlit cache
+.ipynb_checkpoints/
+.vscode/
 .streamlit/
 
-# VSCode
-.vscode/
-
-
-# notebooks, experiments, caches
-notebooks/
-experiments/
-artifacts/
+# Keep repo lean
+saved_models/
+outputs/
+data/
 final_data/
+artifacts/
+experiments/
 figures/
-history_ss.png
-main_page*.png
+notebooks/
+*.safetensors
+*.pt
+*.bin
+*.ckpt
 
-# BIG model outputs/checkpoints
+# HuggingFace/Trainer clutter
+**/checkpoint-*/
+**/trainer_state.json
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# Project-specific big stuff
+part1_emotion/data/
 part1_emotion/results_*/
 part1_emotion/roberta-goemotion-run/
-part1_emotion/**/checkpoint-*/
-
-# datasets inside part1_emotion
-part1_emotion/data/
+history_ss.png
+main_page*.png

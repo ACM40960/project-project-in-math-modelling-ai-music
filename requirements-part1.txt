@@ -1,0 +1,11 @@
+transformers==4.37.2
+datasets==2.17.1
+scikit-learn==1.3.2
+pandas==2.2.2
+librosa==0.10.1
+soundfile
+music21==8.3.0
+pydub==0.25.1
+streamlit==1.33.0
+evaluate==0.4.1
+fsspec[http]==2023.10.0

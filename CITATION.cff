@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "MoodMelody 
+From Text Emotion to Therapeutic Music (RoBERTa+Distil → MusicGen)"
+message: "If you use this code, please cite this repository."
+type: software
+authors:
+  - given-names: Shubham
+    family-names: Mahale
+  - given-names: Piyush
+    family-names: Jawale
+version: "1.0.0"
+date-released: 2025-08-14
+license: MIT
+repository-code: "https://github.com/ACM40960/project-project-in-math-modelling-ai-music"
+abstract: >
+  MoodMelodydetects emotions in text using a RoBERTa+DistilBERT ensemble
+  with a distress filter, maps to coarse emotion categories, and generates 60–120s music
+  with MusicGen-small via chunked rendering and crossfades. Streamlit app included.
+keywords:
+  - emotion recognition
+  - music generation
+  - MusicGen
+  - RoBERTa
+  - DistilBERT
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Shubham
+    family-names: Mahale
+    - given-names: Piyush
+    family-names: Jawale
+  title: "MoodMelody 
+From Text Emotion to Therapeutic Music (RoBERTa+Distil → MusicGen)"
+  journal: "GitHub repository"
+  year: 2025
+  url: "https://github.com/ACM40960/project-project-in-math-modelling-ai-music"
