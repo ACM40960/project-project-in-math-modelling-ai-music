@@ -21,3 +21,21 @@ data/raw/*
 
 # VSCode
 .vscode/
+
+
+# notebooks, experiments, caches
+notebooks/
+experiments/
+artifacts/
+final_data/
+figures/
+history_ss.png
+main_page*.png
+
+# BIG model outputs/checkpoints
+part1_emotion/results_*/
+part1_emotion/roberta-goemotion-run/
+part1_emotion/**/checkpoint-*/
+
+# datasets inside part1_emotion
+part1_emotion/data/
