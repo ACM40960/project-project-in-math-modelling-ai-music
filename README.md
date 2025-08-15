@@ -24,6 +24,7 @@ It combines **hybrid emotion detection** (RoBERTa + DistilBERT + distress filter
   - [ Emotion Detection](#emotion-detection)
   - [ Therapeutic Mapping](#therapeutic-mapping)
   - [ Music Generation](#music-generation)
+  - [ Video Demo](#demo-video)
   - [ Pipeline](#pipeline)
   - [ Evaluation](#evaluation-goemotions-validation-set-n-5708)
 - [ Setup Guide](#setup-guide-any-machine)
@@ -131,6 +132,15 @@ The system runs locally and is optimised for GPUs with as little as 4 GB VRAM.
 
 ---
 
+---
+
+### Demo Video
+
+Experience MoodMelody in action:  
+<video src="assets/demo.mp4" controls width="720">
+  Your browser does not support the video tag.
+</video>
+---
 ### Pipeline
 1. **Text Input** → Hybrid Emotion Detection (RoBERTa + DistilBERT) → Distress Filter.
 2. **Fine → Coarse Mapping** → Therapeutic Goal Remapping.
@@ -147,6 +157,9 @@ The system runs locally and is optimised for GPUs with as little as 4 GB VRAM.
 
 Ensemble improves macro-F1 by **+8.8 points**, critical for handling rare emotions in music therapy.
 
+<p align="center" style="background-color:#f5f5f5; padding:10px; border-radius:10px;">
+  <img src="assets/ui_metrics.png" width="700" alt="Evaluation metrics graph"/>
+</p>
 
 
 
