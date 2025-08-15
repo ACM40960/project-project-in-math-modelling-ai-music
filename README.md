@@ -136,9 +136,9 @@ The system runs locally and is optimised for GPUs with as little as 4 GB VRAM.
 ### Demo Video
 
 Experience MoodMelody in action:  
-<video src="https://github.com/ACM40960/project-project-in-math-modelling-ai-music/releases/download/v1.0.1/demo.mp4" controls width="720">
-  Your browser does not support the video tag. 
-</video>
+### Demo Video
+[![Watch the demo](assets/demo_thumbnail.png)](https://drive.google.com/file/d/1ZR3vjpaonKs8GeRt9u0zvaaodVaZDe7-/view?usp=sharing)
+
 ---
 ### Pipeline
 1. **Text Input** → Hybrid Emotion Detection (RoBERTa + DistilBERT) → Distress Filter.
